@@ -1,8 +1,7 @@
 import java.util.Scanner;
-
 public class Contador {
-    @SuppressWarnings("resource")
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner terminal = new Scanner(System.in);
 		System.out.println("Digite o primeiro parâmetro");
 		int parametroUm = terminal.nextInt();
@@ -17,7 +16,7 @@ public class Contador {
         
 
         if (parametroUm > parametroDois)
-        System.out.println("O segundo parâmetro deve ser maior que o primeiro");
+        System.out.println("O segundo parâmentro deve ser maior que o primeiro");
     }
     
 }
